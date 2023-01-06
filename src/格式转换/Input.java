@@ -12,6 +12,7 @@ public class Input {
     public String Input(){
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
+        System.out.println("pull test!");
         return s;
     }
 }
